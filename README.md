@@ -21,7 +21,7 @@ $ cd database
 ```
 - edit the schema file and make sure it contains the schema for both tables as well as the query to join the tables by ``name`` from the artists table and by ``artists`` from the songs table
 
-- go to the command line and send the following schema to the music database using the command below
+- go to the command line and send the following schema to the music database using the command below ( WARNING: you'll throw an error if you try to insert schema while postico is still open so make sure it's closed )
 ```sh
 $ psql music < schema.sql
 ```
