@@ -1,0 +1,19 @@
+{
+  "name": "topeexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eobaah/TopeExample.git"
+  },
+  "author": "Eugene Baah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eobaah/TopeExample/issues"
+  },
+  "homepage": "https://github.com/eobaah/TopeExample#readme"
+}
