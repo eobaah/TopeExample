@@ -62,6 +62,6 @@ INSERT INTO songs (artist, title)
 INSERT INTO songs (artist, title)
     VALUES ('Guns N Roses', 'Dont cry');
 
-SELECT artists.name AS name, songs.title AS title FROM artists 
+SELECT artists.name AS name, songs.title AS title, artists.genre AS genre FROM artists 
       JOIN songs
       ON artists.name = songs.artist
